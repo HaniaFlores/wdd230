@@ -1,11 +1,6 @@
 // Select the HTML element to manipulate
 update = new Date(document.lastModified)
-theMonth = update.getMonth() + 1
-theDate = update.getDate()
-theYear = update.getFullYear()
-theHour = update.getHours()
-theMinutes = update.getMinutes()
-theSeconds = update.getSeconds()
+theTime = update.toLocaleString()
 
-const fulldate = console.log(`${theMonth}/${theDate}/${theYear} ${theHour}:${theMinutes}:${theSeconds}`);
+const fulldate = `${theTime}`;
 document.querySelector("#date").textContent = fulldate;
