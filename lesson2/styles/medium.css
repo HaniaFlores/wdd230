@@ -1,0 +1,22 @@
+@media only screen and (min-width: 37.5em) {
+
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #principle1 {
+        grid-row: 1/2;
+        grid-column: 1/2;
+    }
+    
+    #principle2 {
+        grid-row: 1/2;
+        grid-column: 2/3;
+    }
+    
+    #principle3 {
+        grid-row: 2/3;
+        grid-column: 1/3;
+    }
+
+}
