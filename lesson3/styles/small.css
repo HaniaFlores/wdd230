@@ -74,7 +74,7 @@ main, ul {
     margin: 1rem;
 }
 
-h3 {
+h1 {
     font-family: 'DM Serif Display', serif;
     font-size: 1.5rem;
     text-align: center;
@@ -128,7 +128,7 @@ span {
     grid-column: 1/2;
 }
 
-#colors p, #colors h3 {
+#colors p, #colors h1 {
     width: 40%;
     margin: 0 auto;
     text-align: center;
