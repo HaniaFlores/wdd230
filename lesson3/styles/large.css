@@ -1,0 +1,21 @@
+@media (min-width: 58em) {
+    nav a {
+        font-size: 1.3rem;
+    }
+    
+    #text-container {
+        margin-top: -20px;
+    }
+
+    #personas {
+        margin-top: -50px;
+    }
+
+    header,
+    nav,
+    main,
+    footer {
+        max-width: 100%;
+    }
+
+}
