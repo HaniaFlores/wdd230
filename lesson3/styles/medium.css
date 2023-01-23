@@ -11,4 +11,12 @@
         margin-top: -100px;
     }
 
+    #siteheading {
+        grid-row: 1/2;
+    }
+    #text-container {
+        grid-row: 2/3;
+        margin-top: -10px;
+    }
+
 }

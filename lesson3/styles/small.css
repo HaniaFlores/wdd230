@@ -91,7 +91,12 @@ h1 {
     background-color: #F5F5F5;
     grid-column: 1/2;
     grid-row: 2/3;
-    margin-top: -40px;
+    margin-top: -60px;
+}
+
+main > p {
+    font-size: 1rem;
+    text-align: center;
 }
 
 /* TARGET AUDIENCE CSS */
