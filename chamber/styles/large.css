@@ -1,0 +1,115 @@
+@media (min-width: 65em) {
+
+    /*HEADER CSS*/
+    header {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    nav {
+        background-color: transparent;
+        margin-top: 2.5rem;
+        flex:1 30%;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul#primaryNav {
+        display: flex;
+        margin-left: 1rem;
+    }
+
+    nav ul li a {
+        border: none;
+        color: white;
+        margin-left: 10px;
+    }
+
+    #currentDate {
+        flex: 1 100%;
+    }
+
+    nav ul li.active a {
+        background-color: transparent;
+    }
+
+    .social {
+        right: 20px;
+    }
+
+    /*MAIN CSS*/
+    main {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    #spot3 {
+        display: block;
+    }
+
+    #spot-container > div {
+        height: 31%;
+    }
+
+    main > div:nth-child(2) {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    main > div:nth-child(1) {
+        grid-column: 2/3;
+        grid-row: 1/-2;
+        height: 550px;
+    }
+
+    #spot-container {
+        grid-column: 3/4;
+        grid-row: 1/4;
+        height: 850px;
+    }
+
+    main > div:nth-child(3) {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    #join {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    main > div:nth-child(4) {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+
+    /*FOOTER CSS*/
+    .selfInfo {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+    }
+    .selfInfo p:nth-child(4) {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    #lastModified {
+        margin-left: 5px;
+    }
+
+    footer {
+        padding: 30px 50px;
+    }
+
+    .contactInfo {
+        left: 20rem;
+    }
+
+    footer img {
+        margin-left: 6rem;
+    }
+
+}

@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="United Chamber of Commerce (unitedchamber.com) Project - Home Page">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito&family=Roboto+Slab&family=Source+Serif+Pro:wght@400;700&display=swap" rel="stylesheet">
+
+
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
@@ -33,32 +39,37 @@
         <div id="currentDate"></div>
     </header>
     <main>
-        <div id="hero-box">Hero with site name and call to action</div>
-        <div id="event">Event</div>
-        <div id="weather">Weather</div>
-        <div id="new-release">New Release</div>
+        <div>Hero with site name and call to action</div>
+        <div>Event</div>
+        <div>Weather</div>
+        <div>New Release</div>
 
         <div id="spot-container">
-            <div id="spot1">Spotlight 1</div>
-            <div id="spot2">Spotlight 2</div>
+            <div>Spotlight 1</div>
+            <div>Spotlight 2</div>
+            <div id="spot3">Spotlight 3</div>
         </div>
+
+        <div id="join">Join</div>
     </main>
     <footer>
         <img src="images/logo.png">
-        <div>
+        <div class="contactInfo">
             <h3>United Chamber of Commerce</h3>
             <p>Av. Diego Rivera 555</p>
             <p>San Pedro Garza García, N.L.</p>
+        </div>
+        <div class="contactus">
             <p>info@unitedchamber.org</p>
             <p>+52 (81) 5179 3491</p>
-            <p>Location Map</p>
+            <p>&#128205; Location Map</p>
         </div>
-        <div>
-            <p>&#169; United Chamber</p>
-            <span id="currentYear"></span>
-            <span id="name">Hania Y. Flores</span> 
+        <hr>
+        <div class="selfInfo">
+            <p>&#169;<span id="currentYear"></span> United Chamber</p>
+            <p id="name">Hania Flores</p> 
             <p>WDD 230 Project</p>
-            <p id="time">Last Updated: <span id="lastModified"></span></p>
+            <p>Last Updated: <span id="lastModified"></span></p>
         </div>
     </footer>
     <script src="scripts/main.js"></script>

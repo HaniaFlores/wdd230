@@ -2,6 +2,31 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-size: 1.1rem;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    padding: 1rem;
+    font-family: 'Roboto Slab', serif;
+}
+main {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Source Serif Pro', serif;
+    line-height: 1.5rem;
+}
+
 /* Nav CSS */
 nav button {
     margin: .2rem 2vw;
@@ -28,7 +53,7 @@ nav ul li a {
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color: #333;
+    color: #2b2c24;
     border-top: 1px solid rgba(0, 0, 0, 0.5);
     text-align: center;
 }
@@ -69,15 +94,18 @@ nav ul.open {
 /* Header CSS */
 header, footer {
     background-color: #2b2c24;
-    font-family: 'DM Serif Display', serif;
     color: white;
-    padding: 1rem;
 }
 
 .social img {
     border-radius: 50%;
     max-width: 40px;
     margin: 5px;
+}
+
+.social a {
+    text-decoration: none;
+    color: #2b2c24;
 }
 
 .social {
@@ -87,34 +115,67 @@ header, footer {
 }
 
 #currentDate {
-    background-color: darkgray;
+    background-color: #D6C599;
+    color: #2b2c24;
     padding: .7rem;
     text-align: center;
     margin-top: 10px;
 }
 
 header > img {
-    max-width: 200px;
+    max-width: 250px;
 }
 
 main > div {
     background-color: #F5F5F5;
     margin: 10px;
-    height: 50px;
-    padding: 10px 10px 0 10px;
+    height: 100px;
+    padding: 10px;
+    font-style: italic;
+    border: 1px solid #C2C2C2;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
-#spot-container > div {
-    border: 1px solid black;
-    margin: 10px;
-    height: 100%;
+#spot-container> div {
+    border: 1px solid #C2C2C2;
+    padding: 10px;
+    height: 200px;
 }
 
-main {
+#spot-container {
     display: flex;
     flex-direction: column;
+    height: fit-content;
 }
 
-footer {
-    text-align: center;
+/*Footer CSS*/
+.contactus p:nth-child(1),
+.contactus p:nth-child(2),
+.contactus p:nth-child(3) {
+    margin: 10px 0;
+}
+
+.contactInfo p:nth-child(2),
+.contactInfo p:nth-child(3) {
+    font-style: italic;
+}
+
+hr {
+    border: 1px solid #424337;
+}
+
+.selfInfo p:nth-child(1) {
+    margin-top: 20px;
+}
+
+#name {
+    font-weight: bold;
+}
+
+.selfInfo {
+    font-size: 1rem;
+}
+
+#spot3, #join {
+    display: none;
 }

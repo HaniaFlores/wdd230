@@ -1,0 +1,139 @@
+@media (min-width: 37.5em) {
+  
+        /*HEADER CSS*/
+        header>img {
+            max-width: 300px;
+        }
+    
+        nav button {
+            font-size: 3rem;
+            top: 50px;
+        }
+    
+        .social img {
+            max-width: 60px;
+            margin-left: 10px;
+        }
+    
+        .social {
+            right: 100px;
+            top: 50px
+        }
+
+        header {
+            font-size: 1.5rem;
+        }
+    
+        /*MAIN CSS*/
+        main {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            font-size: 1.3rem;
+        }
+
+        main > div {
+            height: 250px;
+        }
+
+        main > :nth-child(1) {
+            flex: 1 100%;
+        }
+
+        main :nth-child(4) {
+            order: 1;
+            flex: 1 100%;
+        }
+
+        #spot-container {
+            order: 2;
+            flex: 1 100%;
+        }
+
+        #join {
+            order: 3;
+            display: block;
+            flex: 1 100%;
+        }
+
+        main > :nth-child(2) {
+            order: 4;
+            flex-grow: 2;
+        }
+
+        main :nth-child(3) {
+            order: 5;
+            flex: 1;
+        }
+
+        /*FOOTER CSS*/
+        footer {
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: auto auto auto;
+            padding: 16px;
+            font-size: 1.1rem;
+        }
+
+        footer img,
+        .contactInfo {
+            grid-column: 1/2;
+            grid-row: 1/2;
+            margin-bottom: 20px;
+        }
+
+        .contactInfo {
+            text-align: left;
+            position: absolute;
+            left: 10rem;
+            margin-top: 1rem;
+        }
+
+        .contactus {
+            grid-column: 2/3;
+            grid-row: 1/2;
+            padding: 5px;
+        }
+
+        hr {
+            grid-column: 1/3;
+            grid-row: 2/3;
+        }
+
+        .selfInfo {
+            grid-column: 1/3;
+            grid-row: 3/4;
+            display: flex;
+            flex-wrap: wrap;
+            margin:auto;
+        }
+
+        .selfInfo > p {
+            margin: 10px 5px;
+    
+        }
+
+        .selfInfo p:nth-child(4) {
+            flex: 1 100%;
+        }
+
+        .selfInfo p:nth-child(1),
+        .selfInfo p:nth-child(2),
+        .selfInfo p:nth-child(3) {
+            flex-grow: 1;
+        }
+
+        .selfInfo p:nth-child(1) {
+            margin: 10px;
+        }
+
+        .contactInfo {
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+
+
+
+
+
+}
