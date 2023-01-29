@@ -33,7 +33,7 @@ nav button {
     background-color: transparent;
     border: none;
     font-size: 2rem;
-    color: #555;
+    color: white;
     position: absolute;
     top: 35px;
     right: 0;
@@ -95,6 +95,10 @@ nav ul.open {
 header, footer {
     background-color: #2b2c24;
     color: white;
+}
+
+h1 {
+    font-size: 20px;
 }
 
 .social img {
