@@ -19,3 +19,14 @@ document.getElementById("lastModified").textContent = document.lastModified;
 
 // set current year in footer
 document.querySelector('#currentYear').textContent = currentDate.getFullYear();
+
+//banner display
+let day = currentDate.getDay();
+if (day == 0 || day > 5) {
+    document.querySelector(".banner").style.display = "none";
+};
+
+//close banner
+document.querySelector(".banner_close").addEventListener("click", function () {
+    this.closest(".banner").style.display = "none";
+});
