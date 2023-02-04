@@ -3,6 +3,33 @@
     padding: 0;
 }
 
+/* BANNER CSS */
+.banner {
+    background-color: #F5F5F5;
+}
+
+.banner_content {
+    padding: 16px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+}
+
+.banner_text {
+    flex-grow: 1;
+    line-height: 1.4;
+    font-family: 'Roboto Slab', serif;
+}
+
+.banner_close {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    position: left;
+    margin: 0 20px;
+}
+
 body {
     font-size: 1.1rem;
 }
