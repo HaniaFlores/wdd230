@@ -27,7 +27,6 @@
     border: none;
     cursor: pointer;
     font-size: 1.5rem;
-    position: left;
     margin: 0 20px;
 }
 
@@ -198,8 +197,8 @@ main > div {
     left: 25px;
     font-size: 1.5em;
     font-family: 'Source Serif Pro', serif;
-    text-shadow: 2px 2px 5px black;
-    color: #F5F5F5;
+    text-shadow: 5px 5px 5px black;
+    color: #B99B50;
 }
 
 .call_to_action {
@@ -305,7 +304,7 @@ div h2 {
     max-width: 50%;
 }
 /*SPOT 1*/
-#spot1 img + p {
+#spot1 h3 {
     font-size: 1.1em;
     margin: 10px;
     font-weight: bold;
@@ -318,7 +317,7 @@ div h2 {
 }
 
 /*SPOT 2*/
-#spot2 img + p {
+#spot2 h3 {
     font-size: 1.1em;
     margin: 10px;
     font-weight: bold;

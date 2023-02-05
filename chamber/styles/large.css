@@ -55,7 +55,7 @@
         display: block;
     }
 
-    #spot3 img + p {
+    #spot3 h3 {
         font-size: 1.1em;
         margin: 10px;
         font-weight: bold;
