@@ -60,6 +60,17 @@
             flex: 1 100%;
         }
 
+        .hero_container > a.call_to_action {
+            width: 30%;
+            font-size: 1.5rem;
+            bottom: 10%;
+            right: 10%;
+        }
+
+        .hero_container {
+            font-size: 2rem;
+        }
+
         #join > a.call_to_action {
             position: static;
             margin: 10px auto;
