@@ -197,8 +197,7 @@ main > div {
     left: 25px;
     font-size: 1.5em;
     font-family: 'Source Serif Pro', serif;
-    text-shadow: 5px 5px 5px black;
-    color: #B99B50;
+    text-shadow: 1px 1px 5px black;
 }
 
 .call_to_action {
