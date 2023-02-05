@@ -293,6 +293,11 @@ div h2 {
 /* --- SPOT CONTAINER --- */
 #spot-container {
     text-align: center;
+    padding: 20px;
+}
+
+#spot1, #spot2, #spot3 {
+    box-shadow: 0 0 7px 7px #C2C2C2;
 }
 
 #spot-container img {
