@@ -32,10 +32,6 @@
             font-size: 1.3rem;
         }
 
-        main > div {
-            height: 250px;
-        }
-
         main > :nth-child(1) {
             flex: 1 100%;
         }
@@ -50,10 +46,43 @@
             flex: 1 100%;
         }
 
+        #spot-container img {
+            max-width: 300px;
+        }
+
+        .email, .phone {
+            font-size: 1.2rem;
+        }
+
         #join {
             order: 3;
             display: block;
             flex: 1 100%;
+        }
+
+        #join > a.call_to_action {
+            position: static;
+            margin: 10px auto;
+            width: 85%;
+        }
+
+        #join p {
+            padding: 10px;
+            text-align: center;
+        }
+
+        .event {
+            max-width: 60%;
+            margin-right: 10px;
+        }
+
+        #weather_text {
+            right: 30px;
+        }
+
+        #wc_text {
+            grid-row: 2/3;
+            grid-column: 1/2;
         }
 
         main > :nth-child(2) {
@@ -73,13 +102,19 @@
             grid-template-rows: auto auto auto;
             padding: 16px;
             font-size: 1.1rem;
+            grid-gap: 10px;
         }
 
-        footer img,
         .contactInfo {
             grid-column: 1/2;
             grid-row: 1/2;
             margin-bottom: 20px;
+        }
+
+        footer img {
+            position: absolute;
+            left: 16px;
+            margin: 10px 0;
         }
 
         .contactInfo {

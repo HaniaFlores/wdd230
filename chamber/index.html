@@ -47,18 +47,71 @@
         <div id="currentDate"></div>
     </header>
     <main>
-        <div>Hero with site name and call to action</div>
-        <div>Event</div>
-        <div>Weather</div>
-        <div>New Release</div>
-
-        <div id="spot-container">
-            <div>Spotlight 1</div>
-            <div>Spotlight 2</div>
-            <div id="spot3">Spotlight 3</div>
+        <div class="hero_container">
+            <img id="hero_img" src="images/hero.jpg" alt="monterrey image">
+            <h1>Welcome to United</h1>
+            <a class="call_to_action" href="#">Join the Chamber</a>
+        </div>
+        <div class="event">
+            <h2>Ribbon Cutting</h2>
+            <h3>The diamond shack</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem
+            egestas vitae scel.<span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est,
+            auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum
+            dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis.</span></p>
+            <button id="moreBtn">More Info</button>
+        </div>
+        <div class="weather">
+            <h2>Weather</h2>
+            <img src="images/sun.png" alt="sun icon">
+            <h3 id="degrees">33°C</h3>
+            <h3 id="weather_text">Sunny</h3>
+            <hr>
+            <div class="weather_info">
+                <p id="ws_text">Wind Speed:</p>
+                <p id="ws_number">2.5 km/h</p>
+                <p id="wc_text">Wind Chill:</p>
+                <p id="wc_number">N/A</p>
+            </div>
+        </div>
+        <div class="new_release">
+            <h2>New Release</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem
+            egestas vitae scel. Maecenas nisl est, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum 
+            nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis.</p>
         </div>
 
-        <div id="join">Join</div>
+        <div id="spot-container">
+            <div id="spot1">
+                <h2>Transportation</h2>
+                <img src="images/truck.png" alt="mini truck">
+                <p>"We get it there for you"</p>
+                <hr>
+                <p class="email">info@unitedchamber.org</p>
+                <p class="phone">+52 (81) 5179 3491</p>
+            </div>
+            <div id="spot2">
+                <h2>Education</h2>
+                <img src="images/conference.png" alt="conference icon">
+                <p>Monthly Talks</p>
+                <hr>
+                <p class="email">info@unitedchamber.org</p>
+                <p class="phone">+52 (81) 5179 3491</p>
+            </div>
+            <div id="spot3">
+                <h2>Build your network</h2>
+                <img src="images/business.png" alt="handshake icon">
+                <p>"Largest chmaber of commerce in Monterrey"</p>
+                <hr>
+                <p class="email">info@unitedchamber.org</p>
+                <p class="phone">+52 (81) 5179 3491</p>
+            </div>
+        </div>
+
+        <div id="join">
+            <a class="call_to_action" href="#">Join Us</a>
+            <p>Discover how to join the chamber of commerce. All members, regardless of level, receive valuable benefits!</p>
+        </div>
     </main>
     <footer>
         <img src="images/logo.png" alt="United picture">
