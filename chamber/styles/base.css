@@ -346,6 +346,11 @@ hr {
     font-weight: bold;
 }
 
+#map, #map a:visited {
+    text-decoration: none;
+    color: white;
+}
+
 .selfInfo {
     font-size: 1rem;
 }

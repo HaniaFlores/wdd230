@@ -11,7 +11,11 @@ x.onclick = toggleMenu;
 
 // set current date
 const currentDate = new Date();
-const fullDate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(currentDate);
+const ye = new Intl.DateTimeFormat("en-US", { year: "numeric" }).format(currentDate);
+const mo = new Intl.DateTimeFormat("en-US", { month: "long" }).format(currentDate);
+const da = new Intl.DateTimeFormat("en-US", { day: "2-digit" }).format(currentDate);
+const wd = new Intl.DateTimeFormat("en-US", { weekday: "long" }).format(currentDate);
+const fullDate = `${wd}, ${da} ${mo} ${ye}`
 document.getElementById("currentDate").innerHTML = fullDate;
 
 // set last modification
