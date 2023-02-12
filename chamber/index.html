@@ -26,7 +26,7 @@
         </div>
     </div>
     <header>
-        <img src="images/logo1.png" alt="United logo">
+        <img src="images/logo1.webp" alt="United logo">
         <nav>
         <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
             <ul id="primaryNav">
@@ -48,7 +48,9 @@
     </header>
     <main>
         <div class="hero_container">
-            <img id="hero_img" src="images/hero.jpg" alt="monterrey image">
+            <img id="hero_img" src="images/wddd230_large.jpg" alt="hero image" sizes="100vw"
+                srcset="images/wdd230_medium.jpg 1184w,
+                        images/wdd230_small.jpg 720w">
             <h1>Welcome to United</h1>
             <a class="call_to_action" href="#">Join the Chamber</a>
         </div>
@@ -63,15 +65,20 @@
         </div>
         <div class="weather">
             <h2>Weather</h2>
-            <img src="images/sun.png" alt="sun icon">
-            <h3 id="degrees">33°C</h3>
+            <picture class = "sun">
+                <source media="(max-width: 719px)" srcset="images/sun_small.png">
+                <source media="(max-width: 1183px)" srcset="images/sun_medium.png">
+                <source media="(max-width: 1500px)" srcset="images/sun_large.png">
+                <img src="images/sun.png" alt="sun icon">
+            </picture>
+            <h3 id="degrees">33 °C</h3>
             <h3 id="weather_text">Sunny</h3>
             <hr>
             <div class="weather_info">
                 <p id="ws_text">Wind Speed:</p>
                 <p id="ws_number">2.5 km/h</p>
                 <p id="wc_text">Wind Chill:</p>
-                <p id="wc_number">N/A</p>
+                <p id="wc_number"></p>
             </div>
         </div>
         <div class="new_release">
@@ -84,7 +91,12 @@
         <div id="spot-container">
             <div id="spot1">
                 <h2>Transportation</h2>
-                <img src="images/truck.png" alt="mini truck">
+                <picture class="truck">
+                    <source media="(max-width: 719px)" srcset="images/truck_small.png">
+                    <source media="(max-width: 1183px)" srcset="images/truck_medium.png">
+                    <source media="(max-width: 1500px)" srcset="images/truck_large.png">
+                    <img src="images/truck.png" alt="mini truck">
+                </picture>
                 <h3>"We get it there for you"</h3>
                 <hr>
                 <p class="email">info@unitedchamber.org</p>
@@ -92,7 +104,12 @@
             </div>
             <div id="spot2">
                 <h2>Education</h2>
-                <img src="images/conference.png" alt="conference icon">
+                <picture class="conference">
+                    <source media="(max-width: 719px)" srcset="images/conference_small.png">
+                    <source media="(max-width: 1183px)" srcset="images/conference_medium.png">
+                    <source media="(max-width: 1500px)" srcset="images/conference_large.png">
+                    <img src="images/conference.png" alt="conference icon">
+                </picture>
                 <h3>Monthly Talks</h3>
                 <hr>
                 <p class="email">info@unitedchamber.org</p>
@@ -100,7 +117,10 @@
             </div>
             <div id="spot3">
                 <h2>Build your network</h2>
-                <img src="images/business.png" alt="handshake icon">
+                <picture class="handshake">
+                    <source media="(max-width: 1500px)" srcset="images/hands_large.png">
+                    <img src="images/business.png" alt="handshake icon">
+                </picture>
                 <h3>"Largest Chamber of Commerce in Monterrey"</h3>
                 <hr>
                 <p class="email">info@unitedchamber.org</p>
@@ -114,7 +134,7 @@
         </div>
     </main>
     <footer>
-        <img src="images/logo.png" alt="United picture">
+        <img src="images/logo.webp" alt="United picture">
         <div class="contactInfo">
             <h1>United Chamber of Commerce</h1>
             <p>Av. Diego Rivera 555</p>
@@ -134,5 +154,6 @@
         </div>
     </footer>
     <script src="scripts/main.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
