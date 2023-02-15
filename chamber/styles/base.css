@@ -43,7 +43,7 @@ header {
 }
 
 header > a > img {
-    width: 12em;
+    width: 11em;
 }
 
 main {
@@ -157,10 +157,6 @@ h1 {
     padding: .7rem;
     text-align: center;
     margin-top: 10px;
-}
-
-header > img {
-    max-width: 250px;
 }
 
 /*Main CSS*/
