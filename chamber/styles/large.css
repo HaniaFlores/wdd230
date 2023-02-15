@@ -62,7 +62,7 @@
     }
 
     #spot-container > div {
-        height: fit-content;
+        height: 100%;
     }
 
     #spot-container img {
@@ -93,7 +93,7 @@
     #spot-container {
         grid-column: 3/4;
         grid-row: 1/4;
-        height: fit-content;
+        box-sizing: border-box;
     }
 
     .weather {

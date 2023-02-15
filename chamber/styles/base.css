@@ -41,6 +41,11 @@ header {
     padding: 1rem;
     font-family: 'Roboto Slab', serif;
 }
+
+header > a > img {
+    width: 12em;
+}
+
 main {
     padding: 1rem;
     display: flex;
