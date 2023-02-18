@@ -52,7 +52,13 @@
         <div id="currentDate"></div>
     </header>
     <main>
-
+        <picture>
+            <source media="(max-width: 640px)" data-srcset="https://placeimg.com/300/400/animals">
+            <source media="(max-width: 1008px)" data-srcset="https://placeimg.com/500/500/animals">
+            <source media="(min-width: 1009px)" data-srcset="https://placeimg.com/800/500/animals">
+            <img src="images/placeholder.jpg"
+                data-src="https://placeimg.com/300/400/animals" alt="animal">
+        </picture>
     </main>
     <footer>
         <img src="images/logo.webp" alt="United picture">
@@ -75,5 +81,6 @@
         </div>
     </footer>
     <script src="scripts/main.js"></script>
+    <script src="scripts/lazy.js"></script>
 </body>
 </html>
