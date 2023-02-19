@@ -1,4 +1,4 @@
-@media (min-width: 74em) {
+@media (min-width: 63.1em) {
 
     /*HEADER CSS*/
     header {
@@ -140,4 +140,11 @@
         margin-left: 6rem;
     }
 
+    /* DISCOVERY PAGE */
+    .discover details {
+        max-width: 500px;
+    }
+    .pictures img {
+        max-width: 500px;
+    }
 }
