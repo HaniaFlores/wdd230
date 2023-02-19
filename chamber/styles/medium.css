@@ -182,15 +182,11 @@
             max-width: 250px;
         }
 
-        /* .pictures {
+        .pictures {
             display: flex;
             flex-direction: column;
             align-items: center;
-        } */
-        .pictures picture {
-            max-width: 250px;
-        }
-        
+        }        
         /* PLACEHOLDER SIZE */
         /* HOVER EFFECTS */
         .pictures img {
