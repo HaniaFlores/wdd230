@@ -144,6 +144,8 @@
     .discover details {
         max-width: 500px;
     }
+
+    /* PLACEHOLDER SIZE */
     .pictures img {
         max-width: 500px;
     }

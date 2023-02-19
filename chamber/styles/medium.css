@@ -190,5 +190,20 @@
         .pictures picture {
             max-width: 250px;
         }
+        
+        /* PLACEHOLDER SIZE */
+        /* HOVER EFFECTS */
+        .pictures img {
+            max-width: 250px;
+            filter: brightness(50%);
+            transition: all 1s ease;
+            transition: all 1s ease;
+            transition: all 1s ease;
+            transition: all 1s ease;
+            transition: all 1s ease;
+        }
 
+        .pictures img:hover {
+            filter: brightness(100%);
+        }
 }
