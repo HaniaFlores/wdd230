@@ -1,0 +1,49 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+caption {
+    caption-side: bottom;
+    margin-top: 10px;
+    font-style: italic;
+    font-size: .8em;
+}
+
+table {
+    margin: 10px auto;
+    border: thin solid black;
+    border-spacing: 0;
+    text-align: center;
+    box-shadow: 0 0 15px gray;
+}
+
+td {
+    font-weight: bold;
+    background-color:aliceblue;
+}
+
+th, td {
+    border: thin solid black;
+    padding: 10px;
+}
+
+tbody tr:nth-child(2) td {
+    background-color:antiquewhite;
+}
+
+thead {
+    background-color: orange;
+}
+
+thead tr:nth-child(1){
+    color: azure;
+    background-color: black;
+}
+
+.check {
+    color: blue;
+}
+
+.cross {
+    color: red;
+}
+
