@@ -153,4 +153,41 @@
     .pictures img {
         max-width: 500px;
     }
+
+    /*----------JOIN US PAGE ----------------*/
+    caption {
+        caption-side: bottom;
+        margin-top: 10px;
+        font-style: italic;
+        font-size: .8em;
+    }
+
+    div.table {
+        display: block;
+        position: absolute;
+        top: .5rem;
+        right: 10%;
+    }
+
+    table {
+        border: thin solid black;
+        border-spacing: 0;
+        text-align: center;
+        box-shadow: 0 0 10px #F5F5F5;
+    }
+
+    th,
+    td {
+        border: thin solid black;
+        padding: 10px;
+    }
+
+    tbody tr:nth-child(odd) td{
+        background-color: #F5F5F5;
+    }
+
+    thead {
+        background-color: #2b2c24;
+        color: white;
+    }
 }
