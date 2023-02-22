@@ -18,9 +18,6 @@ const wd = new Intl.DateTimeFormat("en-US", { weekday: "long" }).format(currentD
 const fullDate = `${wd}, ${da} ${mo} ${ye}`
 document.getElementById("currentDate").innerHTML = fullDate;
 
-//FORM SUBMISSION DATE
-document.getElementById("load-time").value = fullDate;
-
 // set last modification
 document.getElementById("lastModified").textContent = document.lastModified;
 
@@ -50,3 +47,6 @@ btnText.addEventListener("click", function () {
         moreText.style.display = "none";
     }
 });
+
+//FORM SUBMISSION DATE
+document.getElementById("load-time").value = fullDate;

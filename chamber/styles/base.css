@@ -1,3 +1,4 @@
+/*----------------- GENERAL CSS -------------------------*/
 * {
     margin: 0;
     padding: 0;
@@ -96,7 +97,7 @@ nav ul li a:hover {
 }
 
 nav ul li.active a {
-    border-bottom: 2px solid green;
+    background-color: rgba(0, 0, 0, 0.2);
     color: #fff;
 }
 
@@ -159,6 +160,7 @@ h1 {
     margin-top: 10px;
 }
 
+/*---------------------- HOME PAGE ------------------------*/
 /*Main CSS*/
 main > div {
     background-color: #F5F5F5;
@@ -360,7 +362,7 @@ hr {
     display: none;
 }
 
-/* DISCOVER PAGE */
+/* -------------------------- DISCOVER PAGE ------------------------*/
 .discover {
     display: flex;
     flex-direction: column;
@@ -397,4 +399,68 @@ hr {
 /* PLACEHOLDER SIZE */
 .pictures img {
     max-width: 300px;
+}
+
+/*--------------------------- JOIN PAGE ----------------------*/
+#joinpage {
+    display: block;
+}
+form fieldset {
+    margin: 1.5rem 0;
+    border: 2px solid #D6C599;
+    padding: 10px 3%;
+    border-radius: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+form legend {
+    font-family: 'Source Serif Pro', serif;
+    color: #2b2c24;
+    margin: 0 1rem;
+    padding: 0.5rem;
+}
+
+form label.top, form div, textarea {
+    font-size: 1rem;
+    display: block;
+    padding-top: 1rem;
+    color: #424337;
+}
+
+form label.sbs {
+    font-size: 1rem;
+    color: #424337;
+    display: block;
+    padding: .75rem 0;
+}
+
+form label.top input, textarea {
+    display: block;
+    font-size: 1rem;
+    border-radius: 4px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 18rem;
+    background-color: #F5F5F5;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+#submitBtn {
+    border: none;
+    border-radius: 1rem;
+    padding: .75rem 1rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 18rem;
+    font-size: 1rem;
+    font-family: 'Roboto Slab', serif;
+    background-color: rgb(214, 197, 153);
+    box-shadow: 0 0 2px 2px #2b2c24;
 }

@@ -39,6 +39,10 @@
         right: 20px;
     }
 
+    nav ul li.active a {
+    border-bottom: 2px solid green;
+    }
+
     /*MAIN CSS*/
     main {
         display: grid;
