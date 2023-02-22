@@ -194,7 +194,7 @@ main > div {
     padding: 0;
 }
 
-.hero_container h1{
+.hero_container > h1{
     position: absolute;
     top: 25px;
     left: 25px;
@@ -230,7 +230,7 @@ main > div {
     margin: 10px;
 }
 
-div h2 {
+div h2, h2 {
     text-shadow: 2px 2px 5px #D6C599;
     color: #424337;
     text-align: center;
@@ -467,4 +467,19 @@ form label.top input:required:valid {
 
 div.table {
     display: none;
+}
+
+/*------------------ THANK YOU PAGE ---------------------------------*/
+.thankyou-page {
+    display: block;
+    text-align: center;
+}
+
+.thankyou-page p {
+    padding: 7px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.thankyou-page h2 {
+    margin-bottom: 2rem;
 }
