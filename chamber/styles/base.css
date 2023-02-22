@@ -96,7 +96,7 @@ nav ul li a:hover {
 }
 
 nav ul li.active a {
-    background-color: rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid green;
     color: #fff;
 }
 
