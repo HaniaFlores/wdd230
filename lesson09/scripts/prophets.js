@@ -25,9 +25,32 @@ const displayProphets = (prophets) => {
         bdate.textContent = `Date of Birth: ${prophet.birthdate}`;
         bplace.textContent = `Place of Birth: ${prophet.birthplace}`;
 
+        //Define the prophet number that we will add at the end of the alt text of the img.
+        let num = prophet.order;
+        let letter;
+
+        switch (num) {
+            case 1:
+                letter = "st";
+                num += letter;
+                break;
+            case 2:
+                letter = "nd";
+                num += letter;
+                break;
+            case 3:
+                letter = "rd";
+                num += letter;
+                break;
+            default:
+                letter = "th";
+                num += letter;
+                break;
+        };
+
         // Build the image portrait by setting all the relevant attribute
         portrait.setAttribute("src", prophet.imageurl);
-        portrait.setAttribute("alt", `Portrait of ${prophet.name} ${prophet.lastname}`);
+        portrait.setAttribute("alt", `Portrait of ${prophet.name} ${prophet.lastname} - ${num} Latter-day President`);
         portrait.setAttribute("loading", "lazy");
         portrait.setAttribute("width", "340");
         portrait.setAttribute("height", "440");
