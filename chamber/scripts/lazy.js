@@ -12,9 +12,9 @@ const observer = new IntersectionObserver((entries) => {
         
         // Load the sources
         sources.forEach((source) => {
-          const srcset = source.getAttribute('data-srcset');
+          const srcset = source.getAttribute('srcset');
           source.setAttribute('srcset', srcset);
-          source.removeAttribute('data-srcset');
+          source.removeAttribute('srcset');
         });
         
         observer.unobserve(picture);
