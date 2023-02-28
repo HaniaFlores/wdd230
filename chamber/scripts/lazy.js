@@ -27,8 +27,18 @@ const observer = new IntersectionObserver((entries) => {
   });
 
 /* Last Visit */
-const lastVisit = new Date(localStorage.getItem("lastVisit"));
-const differenceMs = currentDate.getTime() - lastVisit.getTime();
-const differenceDays = Math.round(differenceMs / (1000 * 60 * 60 * 24));
-localStorage.setItem("lastVisit", currentDate);
+// Retrieve the date of the last visit from local storage
+
+let lastVisit = localStorage.getItem("lastVisit");
+if (lastVisit == null)
+{
+  lastVisit = currentDate.getTime();
+}
+
+// Calculate the difference between the current date and the last visit in milliseconds
+const differenceMs = currentDate.getTime() - lastVisit;
+
+// Convert the difference from milliseconds to days
+const differenceDays = Math.floor(differenceMs / (1000 * 60 * 60 * 24));
+localStorage.setItem("lastVisit", currentDate.getTime());
 localStorage.setItem("daysSinceLastVisit", differenceDays);
