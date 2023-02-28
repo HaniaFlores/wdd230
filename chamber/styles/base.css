@@ -369,31 +369,31 @@ hr {
     align-items: center;
 }
 
-.discover > picture {
-    margin: 0 1em 1em 1em;
-}
-
-.discover details {
-    max-width: 300px;
-    text-align: justify;
-}
-
-.discover summary {
-    cursor: pointer;
-    margin-bottom: 1em;
+.discover h2 {
     font-family: 'Source Serif Pro', serif;
-}
-
-.discover details > p {
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 1.1rem;
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
 }
 
 .pictures {
     background-color: white;
     border: white;
-    padding: 1em;
+    padding: 0 1em 1em 1em;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-container div {
+    max-width: 300px;
+    text-align: justify;
+    margin: 0.5rem 0 2.5rem 0;
+}
+
+.img-container div h3 {
+    margin-bottom: .5rem;
 }
 
 /* PLACEHOLDER SIZE */

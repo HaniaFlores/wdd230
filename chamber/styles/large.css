@@ -144,8 +144,14 @@
         margin-left: 6rem;
     }
 
-    /* DISCOVERY PAGE */
-    .discover details {
+    /* --------------------- -DISCOVERY PAGE --------------------- */
+    .pictures {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-container div {
         max-width: 500px;
     }
 
