@@ -108,6 +108,11 @@
         margin: 10px 10px;
     }
 
+    #degrees {
+        top: 5.5rem;
+        right: 3rem;
+    }
+
     #join {
         grid-column: 1/2;
         grid-row: 3/4;

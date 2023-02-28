@@ -87,7 +87,12 @@
         }
 
         #weather_text {
-            right: 30px;
+            right: 4rem;
+        }
+
+        #degrees {
+            top: 5rem;
+            right: 3rem;
         }
 
         #wc_text {
