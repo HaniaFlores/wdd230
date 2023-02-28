@@ -25,20 +25,3 @@ const observer = new IntersectionObserver((entries) => {
   document.querySelectorAll('picture').forEach((picture) => {
     observer.observe(picture);
   });
-
-/* Last Visit */
-// Retrieve the date of the last visit from local storage
-
-let lastVisit = localStorage.getItem("lastVisit");
-if (lastVisit == null)
-{
-  lastVisit = currentDate.getTime();
-}
-
-// Calculate the difference between the current date and the last visit in milliseconds
-const differenceMs = currentDate.getTime() - lastVisit;
-
-// Convert the difference from milliseconds to days
-const differenceDays = Math.floor(differenceMs / (1000 * 60 * 60 * 24));
-localStorage.setItem("lastVisit", currentDate.getTime());
-localStorage.setItem("daysSinceLastVisit", differenceDays);
