@@ -30,5 +30,5 @@ const observer = new IntersectionObserver((entries) => {
 const lastVisit = new Date(localStorage.getItem("lastVisit"));
 const differenceMs = currentDate.getTime() - lastVisit.getTime();
 const differenceDays = Math.round(differenceMs / (1000 * 60 * 60 * 24));
-localStorage.setItem("lastVisit", today);
+localStorage.setItem("lastVisit", currentDate);
 localStorage.setItem("daysSinceLastVisit", differenceDays);

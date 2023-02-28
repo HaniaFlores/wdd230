@@ -240,14 +240,14 @@ div h2, h2 {
     padding: 5px;
 }
 
-#more {
-    display: none;
+#more-info {
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    color: black;
 }
-#moreBtn {
-    padding: 10px;
-    margin: 10px 0;
-    font-family: 'Nunito Sans', sans-serif;
-    background-color: #F5F5F5;
+
+#more-info:hover {
+    color: #2b2c24;
 }
 
 /*WEATHER CSS*/

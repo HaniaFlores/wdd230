@@ -10,12 +10,12 @@ x.onclick = toggleMenu;
 
 
 // set current date
-const currentDate = new Date();
-const ye = new Intl.DateTimeFormat("en-US", { year: "numeric" }).format(currentDate);
-const mo = new Intl.DateTimeFormat("en-US", { month: "long" }).format(currentDate);
-const da = new Intl.DateTimeFormat("en-US", { day: "2-digit" }).format(currentDate);
-const wd = new Intl.DateTimeFormat("en-US", { weekday: "long" }).format(currentDate);
-const fullDate = `${wd}, ${da} ${mo} ${ye}`
+let currentDate = new Date();
+let ye = new Intl.DateTimeFormat("en-US", { year: "numeric" }).format(currentDate);
+let mo = new Intl.DateTimeFormat("en-US", { month: "long" }).format(currentDate);
+let da = new Intl.DateTimeFormat("en-US", { day: "2-digit" }).format(currentDate);
+let wd = new Intl.DateTimeFormat("en-US", { weekday: "long" }).format(currentDate);
+let fullDate = `${wd}, ${da} ${mo} ${ye}`
 document.getElementById("currentDate").innerHTML = fullDate;
 
 // set last modification
@@ -34,19 +34,3 @@ if (day == 0 || day > 2) {
 document.querySelector(".banner_close").addEventListener("click", function () {
     this.closest(".banner").style.display = "none";
 });
-
-//More Info
-var moreText = document.getElementById("more");
-var btnText = document.getElementById("moreBtn");
-btnText.addEventListener("click", function () {
-    if (btnText.innerHTML == "More Info") {
-        btnText.innerHTML = "Less Info";
-        moreText.style.display = "inline";
-    } else {
-        btnText.innerHTML = "More Info";
-        moreText.style.display = "none";
-    }
-});
-
-//FORM SUBMISSION DATE
-document.getElementById("load-time").value = fullDate;

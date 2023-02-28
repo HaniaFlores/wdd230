@@ -130,8 +130,8 @@
 
             </fieldset>
 
-            <input type="hidden" id="load-time" name="load-time">
             <input type="submit" id="submitBtn" value="Subscribe to United">
+            <input type="hidden" id="load-time" name="load-time">
         </form>
     </main>
     <footer>
@@ -156,5 +156,9 @@
         </div>
     </footer>
     <script src="scripts/main.js"></script>
+    <script>
+        //FORM SUBMISSION DATE
+        document.getElementById("load-time").value = new Date();
+    </script>
 </body>
 </html>
