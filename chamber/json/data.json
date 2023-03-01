@@ -1,0 +1,76 @@
+{
+    "businesses": [
+        {
+            "name": "Company 1",
+            "address": "",
+            "phoneNumber": 1234567890,
+            "website": "http://company.com",
+            "logo": "images/logo.jpg",
+            "membershipLevel": "Silver"
+        },
+        {
+            "name": "Company 2",
+            "address": "",
+            "phoneNumber": 1234567890,
+            "website": "http://company.com",
+            "logo": "images/logo.jpg",
+            "membershipLevel": "Silver"
+        },
+        {
+            "name": "Company 3",
+            "address": "",
+            "phoneNumber": 1234567890,
+            "website": "http://company.com",
+            "logo": "images/logo.jpg",
+            "membershipLevel": "Silver"
+        },
+        {
+            "name": "Company 4",
+            "address": "",
+            "phoneNumber": 1234567890,
+            "website": "http://company.com",
+            "logo": "images/logo.jpg",
+            "membershipLevel": "Silver"
+        },
+        {
+            "name": "Company 5",
+            "address": "",
+            "phoneNumber": 1234567890,
+            "website": "http://company.com",
+            "logo": "images/logo.jpg",
+            "membershipLevel": "Silver"
+        },
+        {
+            "name": "Company 6",
+            "address": "",
+            "phoneNumber": 1234567890,
+            "website": "http://company.com",
+            "logo": "images/logo.jpg",
+            "membershipLevel": "Silver"
+        },
+        {
+            "name": "Company 7",
+            "address": "",
+            "phoneNumber": 1234567890,
+            "website": "http://company.com",
+            "logo": "images/logo.jpg",
+            "membershipLevel": "Silver"
+        },
+        {
+            "name": "Company 8",
+            "address": "",
+            "phoneNumber": 1234567890,
+            "website": "http://company.com",
+            "logo": "images/logo.jpg",
+            "membershipLevel": "Silver"
+        },
+        {
+            "name": "Company 9",
+            "address": "",
+            "phoneNumber": 1234567890,
+            "website": "http://company.com",
+            "logo": "images/logo.jpg",
+            "membershipLevel": "Silver"
+        }
+    ]
+}
