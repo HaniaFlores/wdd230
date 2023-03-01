@@ -504,7 +504,6 @@ div.table {
 
 .cards {
     display: grid;
-    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
     grid-template-columns: 1fr;
     max-width: 300px;
     align-items: center;
@@ -526,12 +525,9 @@ div.table {
     padding: 0.8rem;
     background-color: white;
     box-shadow: 0 0 10px #424337;
+    margin: 1rem;
 }
 
 .cards div > * {
     margin: 0.5rem;
-}
-
-div {
-    margin: 1rem;
 }
