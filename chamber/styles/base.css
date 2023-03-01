@@ -495,17 +495,23 @@ div.table {
     align-items: center;
 }
 
+.directory h2 {
+    margin: 2rem 0;
+    font-size: 2rem;
+}
+
 .cards {
     display: grid;
     /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
     grid-template-columns: 1fr;
     max-width: 300px;
     align-items: center;
+    background-color: white;
+    border: none;
 }
 
 .cards a {
     text-decoration: none;
-    text-align: center;
     color: blue;
     cursor: pointer;
     display: block;
@@ -515,8 +521,9 @@ div.table {
     flex-direction: column;
     text-align: center;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 0.5rem;
-    background-color: #ccc;
+    padding: 0.8rem;
+    background-color: white;
+    box-shadow: 0 0 10px #424337;
 }
 
 .cards div > * {
@@ -524,5 +531,5 @@ div.table {
 }
 
 div {
-    margin: 0.5rem;
+    margin: 1rem;
 }

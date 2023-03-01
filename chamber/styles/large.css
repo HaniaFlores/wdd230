@@ -201,4 +201,19 @@
         background-color: #2b2c24;
         color: white;
     }
+
+    /* ------------------ DIRECTORY PAGE --------------- */
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .cards div {
+        max-width: 400px;
+        grid-template-rows: minmax(150px) 1fr 1fr 1fr;
+        font-size: 1.3rem;
+    }
+
+    .directory h2 {
+        font-size: 2.5rem;
+    }
 }
