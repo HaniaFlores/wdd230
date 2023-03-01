@@ -1,5 +1,17 @@
 @media (min-width: 63.1em) {
 
+    .directory h2,
+    .discover h2,
+    #joinpage h2 {
+        font-size: 2.5rem;
+    }
+
+    .directory,
+    .discover,
+    #joinpage {
+        font-size: 1.5rem;
+    }
+    
     /*HEADER CSS*/
     header {
         flex-direction: row;
@@ -173,11 +185,12 @@
         font-size: .8em;
     }
 
+    /* JOIN PAGE */
     div.table {
         display: block;
         position: absolute;
         top: .5rem;
-        right: 10%;
+        right: 5%;
     }
 
     table {
@@ -211,9 +224,5 @@
         max-width: 400px;
         grid-template-rows: minmax(150px) 1fr 1fr 1fr;
         font-size: 1.3rem;
-    }
-
-    .directory h2 {
-        font-size: 2.5rem;
     }
 }

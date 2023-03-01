@@ -1,5 +1,11 @@
 @media (min-width: 40.1em) {
   
+        .directory h2,
+        .discover h2,
+        #joinpage h2 {
+            font-size: 2.3rem;
+        }
+
         /*HEADER CSS*/
         header>img {
             max-width: 300px;
@@ -208,20 +214,21 @@
             filter: brightness(100%);
         }
 
+        /* JOIN PAGE */
+        form label.top, form div, textarea, form label.sbs, form label.top input,
+        textarea, #submitBtn {
+            font-size: 1.2rem;
+        }
+        
         /* DIRECTORY CSS */
         .directory {
             display: flex;
             flex-direction: column;
         }
 
-        .directory h2 {
-            font-size: 2.3rem;
-        }
-
         .cards {
             grid-template-columns: 1fr 1fr;
             max-width: 80%;
-            font-size: 1.2rem;
         }
 
         .cards a:hover {

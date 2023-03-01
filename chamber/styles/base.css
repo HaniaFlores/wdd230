@@ -5,6 +5,14 @@
     position: relative;
 }
 
+.directory h2,
+.discover h2,
+#joinpage h2 {
+    font-family: 'Source Serif Pro', serif;
+    margin: 2rem 0;
+    font-size: 2rem;
+}
+
 /* BANNER CSS */
 .banner {
     background-color: #F5F5F5;
@@ -369,11 +377,6 @@ hr {
     align-items: center;
 }
 
-.discover h2 {
-    font-family: 'Source Serif Pro', serif;
-    margin-bottom: 1rem;
-}
-
 .pictures {
     background-color: white;
     border: white;
@@ -405,6 +408,10 @@ hr {
 .demographics {
     margin-top: 0;
     margin-bottom: 1.5rem;
+}
+
+.demographics>h2 {
+    margin: 1rem 0;
 }
 
 /*--------------------------- JOIN PAGE ----------------------*/
@@ -493,11 +500,6 @@ div.table {
 /* ---------------------- DIRECTORY PAGE ------------------------------- */
 .directory {
     align-items: center;
-}
-
-.directory h2 {
-    margin: 2rem 0;
-    font-size: 2rem;
 }
 
 .cards {
