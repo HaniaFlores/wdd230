@@ -245,7 +245,7 @@
 
             display: grid;
             grid-template-columns: 1fr;
-            grid-template-rows: minmax(170px) 1fr 1fr 1fr;
+            grid-template-rows: minmax(170px, 1fr 1fr 1fr);
             justify-items: center;
             transition: transform .5s;
         }
