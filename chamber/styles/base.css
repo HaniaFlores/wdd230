@@ -489,3 +489,40 @@ div.table {
 .thankyou-page h2 {
     margin-bottom: 2rem;
 }
+
+/* ---------------------- DIRECTORY PAGE ------------------------------- */
+.directory {
+    align-items: center;
+}
+
+.cards {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+    grid-template-columns: 1fr;
+    max-width: 300px;
+    align-items: center;
+}
+
+.cards a {
+    text-decoration: none;
+    text-align: center;
+    color: blue;
+    cursor: pointer;
+    display: block;
+}
+
+.cards div {
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    background-color: #ccc;
+}
+
+.cards div > * {
+    margin: 0.5rem;
+}
+
+div {
+    margin: 0.5rem;
+}
