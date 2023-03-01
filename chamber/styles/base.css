@@ -378,6 +378,7 @@ hr {
     background-color: white;
     border: white;
     padding: 0 1em 1em 1em;
+    margin-bottom: 0;
 }
 
 .img-container {
@@ -399,6 +400,11 @@ hr {
 /* PLACEHOLDER SIZE */
 .pictures img {
     max-width: 300px;
+}
+
+.demographics {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
 }
 
 /*--------------------------- JOIN PAGE ----------------------*/

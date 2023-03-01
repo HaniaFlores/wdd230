@@ -5,7 +5,7 @@
             "address": "Parque Industrial Nexxus Boulevard Nexxus ADN 2400, 65550, Ciénega de Flores, N.L.",
             "phoneNumber": "81 8047 8000",
             "website": "https://www.lego.com/es-mx/aboutus",
-            "logo": "images/logo.jpg",
+            "logo": "images/lego_logo.png",
             "membershipLevel": "Gold"
         },
         {
@@ -13,7 +13,7 @@
             "address": "Avenida Lázaro Cárdenas, 66269, San Pedro Garza García, N.L.",
             "phoneNumber": "81 0056 0000",
             "website": "https://www.pepsico.com.mx/inicio",
-            "logo": "images/logo.jpg",
+            "logo": "images/pepsico_logo.png",
             "membershipLevel": "Gold"
         },
         {
@@ -21,7 +21,7 @@
             "address": "Av. Alejandro de Rodas 3102-A, Cumbres 8vo Sector, 64610, Monterrey, N.L.",
             "phoneNumber": "81 8329 9000",
             "website": "https://www.organizacionsoriana.com/index.html",
-            "logo": "images/logo.jpg",
+            "logo": "images/soriana_logo.png",
             "membershipLevel": "Silver"
         },
         {
@@ -29,7 +29,7 @@
             "address": "Av. Constitución 444 Poniente, Centro, 64000, Monterrey, N.L.",
             "phoneNumber": "81 8328 3000",
             "website": "https://www.cemexmexico.com/",
-            "logo": "images/logo.jpg",
+            "logo": "images/cemex_logo.png",
             "membershipLevel": "Gold"
         },
         {
@@ -37,7 +37,7 @@
             "address": "Sta. Rosa Mezquital 122, Valle del Mezquital, 66630 Cd Apodaca, N.L.",
             "phoneNumber": "81 8625 8650",
             "website": "https://www.merco.mx/",
-            "logo": "images/logo.jpg",
+            "logo": "images/merco_logo.png",
             "membershipLevel": "Silver"
         },
         {
@@ -45,7 +45,7 @@
             "address": "Dr González, Pedro María Anaya, Col Del Prado, Monterrey, N.L.",
             "phoneNumber": "81 8328 5000",
             "website": "https://heinekenmexico.com/",
-            "logo": "images/logo.jpg",
+            "logo": "images/heineken_logo.png",
             "membershipLevel": "Gold"
         },
         {
@@ -53,7 +53,7 @@
             "address": "Av. Ricardo Margain Zozaya #777, 66267, San Pedro Garza García, N.L.",
             "phoneNumber": "81 8122 7100",
             "website": "https://www.gilsa.mx/",
-            "logo": "images/logo.jpg",
+            "logo": "images/gilsa_logo.jpg",
             "membershipLevel": "Silver"
         },
         {
@@ -61,7 +61,7 @@
             "address": "Ave. Humberto Lobo #240, Col. Del Valle, C.P. 66220. San Pedro Garza García, N.L.",
             "phoneNumber": "81 8356 8021",
             "website": "https://carnesramos.com.mx/",
-            "logo": "images/logo.jpg",
+            "logo": "images/carnes_logo.jpg",
             "membershipLevel": "Bronze"
         },
         {
@@ -69,7 +69,7 @@
             "address": "Av. Ricardo Margain Zozaya 575, Corporativo Santa Engracia 2o Sector, 66267 San Pedro Garza García, N.L.",
             "phoneNumber": "81 8000 7909",
             "website": "https://reforestacionextrema.org/",
-            "logo": "images/logo.jpg",
+            "logo": "images/re_logo.png",
             "membershipLevel": "NP"
         }
     ]
