@@ -52,3 +52,4 @@ const differenceMs = currentDate.getTime() - lastVisit;
 const differenceDays = Math.floor(differenceMs / (1000 * 60 * 60 * 24));
 localStorage.setItem("lastVisit", currentDate.getTime());
 localStorage.setItem("daysSinceLastVisit", differenceDays);
+document.getElementById("lastVisit").textContent = `Days since last visit: ${differenceDays}`;

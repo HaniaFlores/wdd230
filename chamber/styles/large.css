@@ -139,7 +139,7 @@
     /*FOOTER CSS*/
     .selfInfo {
         display: grid;
-        grid-template-columns: repeat(4, auto);
+        grid-template-columns: repeat(5, auto);
     }
     .selfInfo p:nth-child(4) {
         display: grid;
