@@ -1,0 +1,42 @@
+h1, h2 {
+    font-family: 'Tilt Neon', cursive;
+}
+
+p, figcaption {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+
+figure {
+    width: fit-content;
+    text-align: center;
+    background-color: skyblue;
+    padding: 1rem 1.5rem;
+    border-radius: 15px 50px;
+}
+
+div {
+    padding: 1rem;
+    background-color: beige;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px #888888;
+    margin-bottom: 1.5rem;
+}
+
+h1 {
+    text-shadow: 2px 2px 4px lightskyblue;
+}
+
+footer, header {
+    padding: 1.5rem;
+    text-align: center;
+    background-color:aliceblue;
+}
+
+header, main, footer {
+    max-width: 80%;
+    margin: 0 auto;
+}
