@@ -363,6 +363,10 @@ hr {
     color: white;
 }
 
+.selfInfo p:nth-child(6) {
+    font-style: italic;
+}
+
 .selfInfo {
     font-size: 1rem;
 }
