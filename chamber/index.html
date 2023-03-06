@@ -64,18 +64,19 @@
         </div>
         <div class="weather">
             <h2>Weather</h2>
-            <picture class = "sun">
+            <!-- <picture class = "sun">
                 <source media="(max-width: 719px)" srcset="images/sun_small.png">
                 <source media="(max-width: 1183px)" srcset="images/sun_medium.png">
                 <source media="(max-width: 1500px)" srcset="images/sun_large.png">
                 <img src="images/sun.png" alt="sun icon">
-            </picture>
-            <h3 id="degrees">33 °C</h3>
-            <h3 id="weather_text">Sunny</h3>
+            </picture> -->
+            <img src="" alt="" id="weather_icon" />
+            <h3 id="degrees"></h3>
+            <h3 id="weather_text"></h3>
             <hr>
             <div class="weather_info">
                 <p id="ws_text">Wind Speed:</p>
-                <p id="ws_number">2.5 km/h</p>
+                <p id="ws_number"></p>
                 <p id="wc_text">Wind Chill:</p>
                 <p id="wc_number"></p>
             </div>
@@ -151,9 +152,11 @@
             <p>WDD 230 Project</p>
             <p>Last Updated: <span id="lastModified"></span></p>
             <p id="lastVisit"></p>
+            <p>Weather data provided by <a id="api-credits" href="https://openweathermap.org/">OpenWeatherMap</a></p>
         </div>
     </footer>
     <script src="scripts/main.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <!-- <script src="scripts/windchill.js"></script> -->
+    <script src="scripts/weather.js"></script>
 </body>
 </html>
