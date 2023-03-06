@@ -5,10 +5,10 @@ const captionDesc = document.querySelector("#weather_text");
 const windSpeed = document.querySelector("#ws_number");
 const windChill = document.querySelector("#wc_number");
 
-//const url = "https://api.openweathermap.org/data/2.5/weather?lat=25.667&lon=-100.400&units=metric&appid=17ccaf32d4483c10570e9b853463c2b4";
+const url = "https://api.openweathermap.org/data/2.5/weather?lat=25.667&lon=-100.400&units=metric&appid=17ccaf32d4483c10570e9b853463c2b4";
 
 // Test purposes: Check Wind Chill
-const url = "https://api.openweathermap.org/data/2.5/weather?q=Barrow&units=metric&appid=17ccaf32d4483c10570e9b853463c2b4";
+//const url = "https://api.openweathermap.org/data/2.5/weather?q=Barrow&units=metric&appid=17ccaf32d4483c10570e9b853463c2b4";
 
 async function apiFetch() {
     try {
