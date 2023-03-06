@@ -276,6 +276,7 @@ div h2, h2 {
 #degrees {
     width: 50%;
     text-align: center;
+    font-size: 1.17em;
 }
 
 #weather_icon {
@@ -285,6 +286,10 @@ div h2, h2 {
 #weather_text, .weather_temp h2 {
     width: 100%;
     text-align: center;
+}
+
+#weather_text {
+    font-size: 1.17em;
 }
 
 .weather_info {

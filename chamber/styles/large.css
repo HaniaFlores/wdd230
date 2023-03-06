@@ -121,7 +121,7 @@
         margin: 10px 10px;
     }
 
-    #degrees {
+    #degrees, #weather_text {
         font-size: 1.5rem;
     }
 

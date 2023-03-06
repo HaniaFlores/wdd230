@@ -46,7 +46,7 @@ function displayResults(weatherData) {
     // Display the results in the web
     weatherIcon.setAttribute("src", iconsrc);
     weatherIcon.setAttribute("alt", description);
-    captionDesc.textContent = description;
+    captionDesc.innerHTML = `<strong>${description}</strong>`;
     windSpeed.textContent = `${windspeed} km/h`;
     windChill.innerHTML = getWindChill(temperature, windspeed);
 }
