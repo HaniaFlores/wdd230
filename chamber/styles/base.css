@@ -265,32 +265,33 @@ div h2, h2 {
     padding: 20px;
 }
 
-.weather img {
-    max-width: 30%;
+.weather_temp {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
 }
 
 #degrees {
-    font-size: 1.5em;
-    position: absolute;
-    top: 30%;
-    right: 25%;
+    width: 50%;
+    text-align: center;
 }
 
-#weather_text {
-    font-size: 1.5em;
-    position: relative;
-    left: 60%;
-    max-width: fit-content;
+#weather_icon {
+    width: 50%;
 }
 
-.weather p {
-    font-size: 1.1em;
+#weather_text, .weather_temp h2 {
+    width: 100%;
+    text-align: center;
 }
 
 .weather_info {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
+    margin-top: 0.5rem;
 }
 
 /*New Release css*/
@@ -357,7 +358,7 @@ hr {
     font-weight: bold;
 }
 
-#map, #map a:visited {
+#map, #map:visited, #api-credits, #api-credits:visited{
     text-decoration: none;
     color: white;
 }

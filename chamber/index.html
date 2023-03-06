@@ -63,16 +63,12 @@
             <a id="more-info" href="discover.html">more info...</a>
         </div>
         <div class="weather">
-            <h2>Weather</h2>
-            <!-- <picture class = "sun">
-                <source media="(max-width: 719px)" srcset="images/sun_small.png">
-                <source media="(max-width: 1183px)" srcset="images/sun_medium.png">
-                <source media="(max-width: 1500px)" srcset="images/sun_large.png">
-                <img src="images/sun.png" alt="sun icon">
-            </picture> -->
-            <img src="" alt="" id="weather_icon" />
-            <h3 id="degrees"></h3>
-            <h3 id="weather_text"></h3>
+            <div class="weather_temp">
+                <h2>Weather</h2>
+                <img src="" alt="" id="weather_icon" />
+                <h3 id="degrees"></h3>
+                <h3 id="weather_text"></h3>
+            </div>
             <hr>
             <div class="weather_info">
                 <p id="ws_text">Wind Speed:</p>
@@ -152,11 +148,10 @@
             <p>WDD 230 Project</p>
             <p>Last Updated: <span id="lastModified"></span></p>
             <p id="lastVisit"></p>
-            <p>Weather data provided by <a id="api-credits" href="https://openweathermap.org/">OpenWeatherMap</a></p>
+            <p>Weather data provided by <a id="api-credits" href="https://openweathermap.org/" target="_blank" rel="noopener noreferrer">OpenWeatherMap</a></p>
         </div>
     </footer>
     <script src="scripts/main.js"></script>
-    <!-- <script src="scripts/windchill.js"></script> -->
     <script src="scripts/weather.js"></script>
 </body>
 </html>
