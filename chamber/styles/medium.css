@@ -211,6 +211,10 @@
         #lastVisit {
             text-align: center;
         }
+        
+        #api-credits:hover {
+            color: bisque;
+        }
 
         /* DISCOVERY PAGE */
         .img-container div {

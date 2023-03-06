@@ -122,8 +122,7 @@
     }
 
     #degrees {
-        top: 5.5rem;
-        right: 3rem;
+        font-size: 1.5rem;
     }
 
     #join {
@@ -141,6 +140,7 @@
         display: grid;
         grid-template-columns: repeat(5, auto);
     }
+
     .selfInfo p:nth-child(4) {
         display: grid;
         grid-template-columns: auto auto;
@@ -162,6 +162,10 @@
         margin-left: 6rem;
     }
 
+    .selfInfo p:nth-child(6) {
+        grid-column: 1/6;
+        text-align: center;
+    }
     /* --------------------- -DISCOVERY PAGE --------------------- */
     .pictures {
         display: flex;
