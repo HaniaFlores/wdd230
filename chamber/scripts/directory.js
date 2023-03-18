@@ -19,7 +19,7 @@ const displayBusinesses = (businesses) => {
 
         // Build the image logo by setting all the relevant attribute
         logo.setAttribute("src", business.logo);
-        logo.setAttribute("alt", `${business.name} company logo`);
+        logo.setAttribute("alt", `${business.name} company logo.`);
         logo.setAttribute("loading", "lazy");
 
         //Attributes
@@ -51,7 +51,6 @@ const displayBusinesses = (businesses) => {
 }
 
 getBusinessData();
-
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 const menu = document.querySelector(".menu");
