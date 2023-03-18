@@ -19,7 +19,7 @@ const displayBusinesses = (businesses) => {
 
         // Build the image logo by setting all the relevant attribute
         logo.setAttribute("src", business.logo);
-        logo.setAttribute("alt", `${business.name} logo image`);
+        logo.setAttribute("alt", `${business.name} company logo`);
         logo.setAttribute("loading", "lazy");
 
         //Attributes
