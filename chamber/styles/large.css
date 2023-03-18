@@ -107,6 +107,10 @@
         font-size: 2rem;
     }
 
+    #hero_img {
+        object-fit: cover;
+    }
+
     #spot-container {
         grid-column: 3/4;
         grid-row: 1/4;
@@ -221,13 +225,43 @@
     }
 
     /* ------------------ DIRECTORY PAGE --------------- */
-    .cards {
+
+    /* GRID LAYOUT */
+    .cards div {
+        font-size: 1.3rem;
+    }
+
+    .grid {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    .cards div {
+    .grid div {
         max-width: 400px;
-        font-size: 1.3rem;
+    }
+
+    /* LIST LAYOUT */
+    .list div {
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    .list div img {
+        margin: 0 auto;
+    }
+
+    .list div p.card-phone {
+        grid-row: 1/2;
+        grid-column: 4/5;
+    } 
+
+    .list div p.card-level {
+        grid-row: 1/2;
+        grid-column: 5/6;
+    }
+
+    .list div a {
+        grid-row: 1/2;
+        grid-column: 6/7;
     }
     
 }
