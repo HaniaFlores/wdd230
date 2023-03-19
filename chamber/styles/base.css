@@ -613,15 +613,60 @@ div.menu button:hover {
     display: none;
 }
 
-/* .list div p {
-    font-size: 1rem;
-} */
-
 .list div:nth-child(even) {
-    /* background-color: #EEE7D3; */
     background-color: white;
 }
 
 .cards.list {
     padding: 0;
+}
+
+/* ----------------------------- CONTACTS US PAGE ---------------------------- */
+.contact-page fieldset {
+    margin-top: 0;
+}
+
+.contact-page section p{
+    line-height: 1.7rem;
+}
+
+.contact-page section h3 {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 5px #d6c599;
+    color: #424337;
+}
+.points_of_contact {
+    padding-top: 0;
+    height: fit-content;
+    background-color: #F5F5F5;
+    border: 2px solid #D6C599;
+}
+
+.office-hours {
+    margin-top: 1rem;
+}
+
+.contact-page section h4 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact-page section a {
+    text-decoration: none;
+    color: #424337;
+    font-style: italic;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.contact-page section a:hover {
+    color: #2b2c24;
+}
+
+.contact-page section p.phone {
+    color: #424337;
+    font-style: italic;
+    font-size: 1.1rem;
 }
