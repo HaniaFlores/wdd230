@@ -7,7 +7,9 @@
 
 .directory h2,
 .discover h2,
-#joinpage h2 {
+#joinpage h2,
+.contact-page h2,
+.thankyou-page h2 {
     font-family: 'Source Serif Pro', serif;
     margin: 2rem 0;
     font-size: 2rem;
@@ -317,23 +319,22 @@ div h2, h2 {
     max-width: 50%;
 }
 /*SPOT 1*/
-#spot1 h3 {
-    font-size: 1.1em;
+#spot-container p {
     margin: 10px;
-    font-weight: bold;
 }
 
-.email, .phone {
+.phone {
+    margin-top: 5px;   
+}
+
+.website {
     margin-top: 5px;
-    font-family: 'Source Serif Pro', serif;
-    font-size: 1rem;
+    text-decoration: none;
+    color: blue;
 }
 
-/*SPOT 2*/
-#spot2 h3 {
-    font-size: 1.1em;
-    margin: 10px;
-    font-weight: bold;
+.website:hover {
+    color: black;
 }
 
 /*Footer CSS*/
@@ -493,6 +494,7 @@ div.table {
 .thankyou-page {
     display: block;
     text-align: center;
+    font-size: 1.2rem;
 }
 
 .thankyou-page p {

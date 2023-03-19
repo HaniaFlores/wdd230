@@ -2,13 +2,17 @@
 
     .directory h2,
     .discover h2,
-    #joinpage h2 {
+    #joinpage h2,
+    .contact-page h2,
+    .thankyou-page h2 {
         font-size: 2.5rem;
     }
 
     .directory,
     .discover,
-    #joinpage {
+    #joinpage,
+    .thankyou-page,
+    .contact-page {
         font-size: 1.5rem;
     }
     
@@ -69,12 +73,6 @@
 
     #spot3 {
         display: block;
-    }
-
-    #spot3 h3 {
-        font-size: 1.1em;
-        margin: 10px;
-        font-weight: bold;
     }
 
     #spot-container > section {

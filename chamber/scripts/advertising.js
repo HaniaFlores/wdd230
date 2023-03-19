@@ -18,36 +18,38 @@ const displayBusinesses = function (businesses) {
 
     selectedBusinesses.forEach((business, index) => {
 
-      let section = document.createElement("section");
-      section.setAttribute("id", `spot${index + 1}`);
-      let logo = document.createElement("img");
-      let name = document.createElement("h2");
-      let address = document.createElement("p");
-      let phoneNumber = document.createElement("p");
-      let website = document.createElement("a");
+        let section = document.createElement("section");
+        section.setAttribute("id", `spot${index + 1}`);
+        let logo = document.createElement("img");
+        let name = document.createElement("h2");
+        let address = document.createElement("p");
+        let phoneNumber = document.createElement("p");
+        phoneNumber.setAttribute("class", "phone");
+        let website = document.createElement("a");
+        website.setAttribute("class", "website");
 
-      // Build the logo
-      logo.setAttribute("src", business.logo);
-      logo.setAttribute("alt", `${business.name} logo.`);
-      logo.setAttribute("loading", "lazy");
+        // Build the logo
+        logo.setAttribute("src", business.logo);
+        logo.setAttribute("alt", `${business.name} logo.`);
+        logo.setAttribute("loading", "lazy");
 
-      // Build the name, address, phone number, and website
-      name.textContent = business.name;
-      address.textContent = business.address;
-      phoneNumber.textContent = business.phoneNumber;
-      website.textContent = "Website";
+        // Build the name, address, phone number, and website
+        name.textContent = business.name;
+        address.textContent = business.address;
+        phoneNumber.textContent = business.phoneNumber;
+        website.textContent = "Website";
 
-      website.setAttribute("href", business.website);
-      website.setAttribute("target", "_blank");
+        website.setAttribute("href", business.website);
+        website.setAttribute("target", "_blank");
 
-      // Append the elements
-      section.appendChild(logo);
-      section.appendChild(name);
-      section.appendChild(address);
-      section.appendChild(phoneNumber);
-      section.appendChild(website);
+        // Append the elements
+        section.appendChild(logo);
+        section.appendChild(name);
+        section.appendChild(address);
+        section.appendChild(phoneNumber);
+        section.appendChild(website);
 
-      container.appendChild(section);       
+        container.appendChild(section);       
     });
 
 }
