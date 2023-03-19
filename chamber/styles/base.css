@@ -180,18 +180,6 @@ main > div {
     font-family: 'Nunito Sans', sans-serif;
 }
 
-#spot-container> div {
-    border: 1px solid #C2C2C2;
-    padding: 10px;
-    height: fit-content;
-}
-
-#spot-container {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-}
-
 /*HERO CONTAINER*/
 #hero_img {
     max-height: 100%;
@@ -306,7 +294,16 @@ div h2, h2 {
 }
 
 /* --- SPOT CONTAINER --- */
+#spot-container>section {
+    border: 1px solid #C2C2C2;
+    padding: 10px;
+    height: fit-content;
+}
+
 #spot-container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
     text-align: center;
     padding: 20px;
 }
