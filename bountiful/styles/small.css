@@ -1,0 +1,89 @@
+/* General CSS */
+* {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ---------------- HEADER ------------------- */
+header {
+    background-color: #48321E;
+}
+
+header img {
+    width: 20vw;
+    padding: 2%;
+}
+
+/* Nav */
+nav button {
+    margin: .2rem 2vw;
+    background-color: transparent;
+    border: none;
+    font-size: 3rem;
+    color: white;
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
+
+nav {
+    background-color: #48321E;
+    position: static;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    border-top: 1px solid rgba(115, 80, 48, 1);
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(1) {
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(2) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(2) {
+    display: block;
+}
