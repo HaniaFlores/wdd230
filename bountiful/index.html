@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bountiful Foods Home Page (bountifulfoods.com)
+    Bountiful Foods is small business specializing in organic, locally grown foods. We are physically located in Carlsbad, California, 
+    however, we have many food trucks that cover the coastal area from Los Angeles to San Diego.">
+    <link rel="icon" href="favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <title>Bountiful Foods</title>
+
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="images/BF.webp" alt="Bountiful Foods Logo"></a>
+        <nav>
+        <button id="hamburgerBtn"><span>&#9776;</span>&#9747;</button>
+            <ul id="navBar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="controls">
+        <button id="prevBtn">&#10140;</button>
+        <button id="nextBtn">&#10140;</button>
+    </div>
+
+    <div class="slides-container">
+        <div class="slides-inner">
+            <div class="slide">1</div>
+            <div class="slide">2</div>
+        </div>
+    </div>
+
+    <main>
+        <h1>Demographic Information</h1>
+        <div class="section-container">
+            <section class="place">
+                <h2>Place1</h2>
+                <img src="images/placeholder.png" alt="place1">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem
+                egestas vitae scel.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem
+                egestas vitae scel.</p>
+            </section>
+            <section class="place">
+                <h2>Place2</h2>
+                <img src="images/placeholder.png" alt="place2">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi
+                    lorem
+                    egestas vitae scel.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum
+                    interdum, nisi lorem
+                    egestas vitae scel.</p>
+            </section>
+            <section class="place">
+                <h2>Place3</h2>
+                <img src="images/placeholder.png" alt="place3">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi
+                    lorem
+                    egestas vitae scel.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum
+                    interdum, nisi lorem
+                    egestas vitae scel.</p>
+            </section>
+        </div>
+
+        <h1>Weather</h1>
+        <div class="weatherContainer">
+            <section class="currentWeather">
+                <img class="weather-icon" src="images/placeholder.png" alt="weather icon">
+                <h2 id="weather-condition">Sunny</h2>
+                <p class="temperature">47ºF</p>
+                <p class="location">Carlsbad, California</p>
+                <p class="humidity">Humidity <span id="percentage">35</span>%</p>
+            </section>
+            <div class="forecastContainer">
+                <div id="day1">
+                    <p>Monday</p>
+                    <img class="weather-icon" src="images/placeholder.png" alt="weather icon">
+                    <p><span id="min">10</span>º/<span id="max">30</span>º</p>
+                </div>
+                <div id="day2">
+                    <p>Tuesday</p>
+                    <img class="weather-icon" src="images/placeholder.png" alt="weather icon">
+                    <p><span id="min">10</span>º/<span id="max">30</span>º</p>
+                </div>
+                <div id="day3">
+                    <p>Wednesday</p>
+                    <img class="weather-icon" src="images/placeholder.png" alt="weather icon">
+                    <p><span id="min">10</span>º/<span id="max">30</span>º</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="specialInfoContainer">
+            <div class="innerInfo">
+                <h2>Specialty Drinks Submitted</h2>
+                <p id="drinksTotal"><span id="count">3</span><img id="beverage-icon" src="images/beverage.png" alt="beverage icon"></p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="businessInfo">
+            <img src="images/BF.webp" alt="bountiful foods logo">
+            <p class="address">1975 Chestnut Ave, Carlsbad, CA 92008</p>
+            <p class="email">contact@bountifulfoods.com</p>
+            <p class="phone">760-532-1704</p>
+            <hr>
+            <div class="credits">
+                <p>&#169;<span id="currentYear"></span> Bountiful Foods</p>
+                <p>Hania Flores</p>
+                <p>WDD 230 Final Project</p>
+                <p class="references"><a href="attributions.html">Attribution Page</a></p>
+                <p>Last Updated: <span id="lastModified"></span></p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
