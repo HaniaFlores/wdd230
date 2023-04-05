@@ -65,7 +65,7 @@ nav ul li a:hover {
 }
 
 nav ul li.active a {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: #48321E;
     color: #fff;
 }
 
@@ -116,6 +116,7 @@ nav ul.open {
     flex-direction: column;
     width: 100vw;
     height: 25vh;
+    margin-top: 0.5rem;
 }
 
 .controls {
@@ -124,7 +125,7 @@ nav ul.open {
 
 .heroBox button {
     cursor: pointer;
-    padding: 10px;
+    padding: 5px;
     border-radius: 50%;
     width: 10vw;
     background-color: rgba(245, 245, 245, 0.5);
@@ -189,7 +190,7 @@ nav ul.open {
     border-radius: 50%;
     position: absolute;
     bottom: 10%;
-    left: 60vw;
+    left: 55%;
 }
 
 .callToAction:hover {
@@ -281,15 +282,16 @@ main {
 }
 
 .forecastContainer > div p:first-child {
-    width: 70%;
+    width: 60%;
 }
 
 .forecastContainer > div p:last-child {
-    width: 10%;
+    width: 20%;
+    text-align: center;
 }
 
 .forecastContainer > div img {
-    margin: 0 0.5rem;
+    margin: 0 auto;
 }
 
 .forecastContainer > div{
@@ -329,7 +331,54 @@ main {
     font-size: 4rem;
 }
 
+/* ------------------ FOOTER ---------------------- */
+
 footer {
     background-color: #48321E;
     margin-top: 1.5rem;
+    padding: 1rem 0;
+}
+
+.businessInfo {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+
+.businessInfo img {
+    width: 250px;
+    border-radius: 2%;
+    margin-bottom: 0.5rem;
+}
+
+.businessInfo > p {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+}
+
+.email:hover, .phone:hover {
+    color: #0099E0;
+}
+
+hr {
+    border-color: #735030;
+}
+
+.credits {
+    margin-top: 1rem;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.credits p:nth-child(2) {
+    font-weight: bolder;
+}
+
+.references a {
+    text-decoration: none;
+    color: #85D8FF;
+}
+
+.references a:hover {
+    color: #0099E0;
 }
