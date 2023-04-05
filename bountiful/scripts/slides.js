@@ -30,11 +30,15 @@ var prevButton = document.querySelector("#prevBtn");
 var nextButton = document.querySelector("#nextBtn");
 
 prevButton.addEventListener("click", function() {
-  showSlide(currentSlide - 1);
+  clearInterval(slideInterval);
+  showSlide((currentSlide - 1 + slides.length) % slides.length);
+  slideInterval = setInterval(nextSlide, 3000);
 });
 
 nextButton.addEventListener("click", function() {
-  showSlide(currentSlide + 1);
+  clearInterval(slideInterval);
+  showSlide((currentSlide + 1) % slides.length);
+  slideInterval = setInterval(nextSlide, 3000);
 });
 
 // Autoplay functionality
