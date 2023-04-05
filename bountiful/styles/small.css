@@ -428,3 +428,22 @@ input:required:valid {
     background-color: #85D8FF;
     box-shadow: 0 0 2px 2px #0099E0;
 }
+
+/* --------------------- ABOUT US ------------------- */
+.aboutus p.history {
+    margin: 1rem 0;
+    text-align: justify;
+}
+
+.aboutus p.contact {
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+.map {
+    width: 90vw;
+}
+
+.map:hover {
+    filter: brightness(50%);
+}
