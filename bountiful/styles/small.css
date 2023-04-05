@@ -428,7 +428,3 @@ input:required:valid {
     background-color: #85D8FF;
     box-shadow: 0 0 2px 2px #0099E0;
 }
-
-div.table {
-    display: none;
-}
