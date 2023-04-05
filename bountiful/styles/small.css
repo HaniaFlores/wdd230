@@ -56,12 +56,13 @@ nav ul li a {
     text-decoration: none;
     color: #48321E;
     font-family: 'Roboto Slab', serif;
-    border-top: 1px solid rgba(115, 80, 48, 1);
+    border-top: 1px solid rgb(115, 80, 48);
     text-align: center;
 }
 
 nav ul li a:hover {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(72, 50, 30, 0.8);
+    color: white;
 }
 
 nav ul li.active a {
@@ -251,6 +252,8 @@ main {
     grid-template-columns: 15% 1fr 1fr;
     grid-template-rows: 50% 50%;
     justify-items: center;
+    align-items: center;
+    text-align: center;
     height: fit-content;
     padding: 1rem;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
@@ -346,13 +349,13 @@ footer {
 }
 
 .businessInfo img {
-    width: 250px;
+    width: 200px;
     border-radius: 2%;
     margin-bottom: 0.5rem;
 }
 
 .businessInfo > p {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     line-height: 1.8rem;
 }
 
@@ -367,7 +370,6 @@ hr {
 .credits {
     margin-top: 1rem;
     line-height: 1.5rem;
-    font-size: 1.1rem;
 }
 
 .credits p:nth-child(2) {
