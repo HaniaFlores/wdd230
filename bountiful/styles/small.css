@@ -385,3 +385,50 @@ hr {
 .references a:hover {
     color: #0099E0;
 }
+
+/* ---------------- FRESH -----------------------*/
+
+form label,
+form div,
+textarea {
+    font-size: 1rem;
+    display: block;
+    padding-top: 1rem;
+    color: #48321E;
+}
+
+input,
+textarea, select {
+    display: block;
+    font-size: 1rem;
+    border-radius: 4px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 18rem;
+    background-color: #F5F5F5;
+}
+
+input:required {
+    border-left: red solid 6px;
+}
+
+input:required:valid {
+    border-left: green solid 6px;
+}
+
+#submitBtn {
+    border: none;
+    border-radius: 1rem;
+    padding: .75rem 1rem;
+    margin: 1rem 0 2rem 2%;
+    width: 96%;
+    max-width: 18rem;
+    font-size: 1rem;
+    font-family: 'Roboto Slab', serif;
+    background-color: #85D8FF;
+    box-shadow: 0 0 2px 2px #0099E0;
+}
+
+div.table {
+    display: none;
+}

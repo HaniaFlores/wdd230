@@ -1,12 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About Us</title>
+    <meta name="description" content="Bountiful Foods Home Page (bountifulfoods.com)
+        Bountiful Foods is small business specializing in organic, locally grown foods. We are physically located in Carlsbad, California, 
+        however, we have many food trucks that cover the coastal area from Los Angeles to San Diego.">
+    <link rel="icon" href="favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
 </head>
+
 <body>
-    
+    <header>
+        <a href="index.html"><img src="images/BF.webp" alt="Bountiful Foods Logo"></a>
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>&#9747;</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li class="active"><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+        <div class="social">
+            <a href="https://facebook.com">
+                <img src="images/facebook_logo.jpg" alt="fb icon">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="images/instagram_logo.jpg" alt="instagram icon">
+            </a>
+            <a href="https://twitter.com/home">
+                <img src="images/twitter_logo.jpg" alt="twitter icon">
+            </a>
+        </div>
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+        <div class="businessInfo">
+            <img src="images/BF.webp" alt="bountiful foods logo">
+            <p class="address">1975 Chestnut Ave, Carlsbad, CA 92008</p>
+            <p class="email">contact@bountifulfoods.com</p>
+            <p class="phone">760-532-1704</p>
+            <hr>
+            <div class="credits">
+                <p>&#169;<span id="currentYear"></span> Bountiful Foods</p>
+                <p>Hania Flores</p>
+                <p>WDD 230 Final Project</p>
+                <p class="references"><a href="attributions.html">--- Attribution Page ---</a></p>
+                <p>Last Updated: <span id="lastModified"></span></p>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/main.js"></script>
 </body>
+
 </html>
