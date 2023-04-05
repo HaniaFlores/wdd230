@@ -98,13 +98,80 @@ nav ul.open {
     display: flex;
     flex-direction: row;
     position: absolute;
-    right: 20%;
+    right: 15%;
     top: 20%;
 }
 
 /* HERO SLIDES */
+.heroBox {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100vw;
+    height: 25vh;
+}
 
+.controls {
+    padding: 10px;
+}
 
+.heroBox button {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    width: 10vw;
+    background-color: rgba(245, 245, 245, 0.5);
+    border: none;
+    font-size: 1.5rem;
+    position: absolute;
+    z-index: 1;
+}
+
+#prevBtn {
+    transform: rotate(180deg);
+    top: 40%;
+    left: 2%;
+}
+
+#nextBtn {
+    top: 40%;
+    left: 108%;
+}
+
+.slider {
+    width: 600px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide {
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+.slider div:nth-child(1) {
+    background-color: #48321E;
+}
+
+.slider div:nth-child(2) {
+    background-color: green;
+}
+
+.slider div:nth-child(3) {
+    background-color: aqua;
+}
+
+/* ------------------- MAIN ----------------------- */
 main {
     background-color: #FEF9EC;
 }
