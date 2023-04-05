@@ -13,13 +13,11 @@ p {
 }
 
 /* ---------------- HEADER ------------------- */
-header {
-    background-color: #48321E;
-}
-
-header img {
+header > a img {
     width: 20vw;
-    padding: 2%;
+    margin: 2%;
+    box-shadow: 0 0 2px 2px #48321E;
+    border-radius: 30%;
 }
 
 /* Nav */
@@ -28,14 +26,14 @@ nav button {
     background-color: transparent;
     border: none;
     font-size: 3rem;
-    color: white;
+    color: #48321E;
     position: absolute;
-    top: 40px;
+    top: 20%;
     right: 0;
 }
 
 nav {
-    background-color: #48321E;
+    background-color: white;
     position: static;
 }
 
@@ -49,7 +47,7 @@ nav ul li a {
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color: white;
+    color: #48321E;
     font-family: 'Roboto Slab', serif;
     border-top: 1px solid rgba(115, 80, 48, 1);
     text-align: center;
@@ -86,4 +84,31 @@ nav ul.open {
 
 #hamburgerBtn.open span:nth-child(2) {
     display: block;
+}
+
+ /* SOCIAL MEDIA */
+
+.social img {
+    width: 3.5rem;
+    border-radius: 50%;
+    margin: 0.5rem;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 20%;
+    top: 20%;
+}
+
+/* HERO SLIDES */
+
+
+main {
+    background-color: #FEF9EC;
+}
+
+footer {
+    background-color: #48321E;
 }
