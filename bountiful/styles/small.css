@@ -192,6 +192,7 @@ nav ul.open {
     position: absolute;
     bottom: 10%;
     left: 55%;
+    font-family: 'Roboto Slab', serif
 }
 
 .callToAction:hover {
@@ -217,10 +218,9 @@ main {
 }
 
 .place img {
-    width: 300px;
-    padding: 1rem 0;
+    width: 100%;
     display: block;
-    margin: auto;
+    margin: 0 auto;
 }
 
 /* .section-container .place:nth-child(1){
