@@ -171,6 +171,24 @@ nav ul.open {
     background-color: aqua;
 }
 
+.callToAction {
+    text-decoration: none;
+    font-size: 1.1rem;
+    background-color: yellow;
+    width: 30vw;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10%;
+    left: 80%;
+}
+
+.callToAction:hover {
+    background-color: darkorange;
+}
+
 /* ------------------- MAIN ----------------------- */
 main {
     background-color: #FEF9EC;
