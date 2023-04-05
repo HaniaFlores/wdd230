@@ -1,3 +1,4 @@
+/* ----------------- SLIDES ----------------- */
 var slides = document.querySelectorAll(".slide");
 var currentSlide = 0;
 var slideInterval;
@@ -54,3 +55,5 @@ slider.addEventListener("mouseenter", function() {
 slider.addEventListener("mouseleave", function() {
   slideInterval = setInterval(nextSlide, 3000);
 });
+
+/* ----------------- WEATHER API --------------  */
