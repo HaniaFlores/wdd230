@@ -344,7 +344,12 @@ footer {
     line-height: 1.8rem;
 }
 
-.email:hover, .phone:hover {
+.email a, .phone a {
+    text-decoration: none;
+    color: white;
+}
+
+.email a:hover, .phone a:hover {
     color: #0099E0;
 }
 
