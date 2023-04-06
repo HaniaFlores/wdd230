@@ -436,3 +436,19 @@ input:required:valid {
 .map:hover {
     filter: brightness(50%);
 }
+
+/* ---------------- Attribution Page -------------------- */
+.attribution a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+}
+
+.attribution a:hover {
+    color: #104212;
+    font-weight: bold;
+}
+
+.attribution, .attribution h2 {
+    text-align: left;
+}
