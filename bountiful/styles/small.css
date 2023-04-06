@@ -154,7 +154,7 @@ nav ul.open {
     overflow: hidden;
 }
 
-.slide {
+.slide{
     width: 100vw;
     height: 400px;
     position: absolute;
@@ -164,26 +164,18 @@ nav ul.open {
     transition: opacity 0.5s ease-in-out;
 }
 
+.slide img {
+    width: 100vw;
+}
+
 .slide.active {
     opacity: 1;
-}
-
-.slider div:nth-child(1) {
-    background-color: #48321E;
-}
-
-.slider div:nth-child(2) {
-    background-color: green;
-}
-
-.slider div:nth-child(3) {
-    background-color: aqua;
 }
 
 .callToAction {
     text-decoration: none;
     font-size: 1.1rem;
-    background-color: yellow;
+    background-color: #85D8FF;
     width: 30vw;
     text-align: center;
     color: black;
@@ -223,17 +215,9 @@ main {
     margin: 0 auto;
 }
 
-/* .section-container .place:nth-child(1){
-    background-color: aqua;
+.place p {
+    margin-top: 1rem;
 }
-
-.section-container .place:nth-child(2) {
-    background-color: yellow;
-}
-
-.section-container .place:nth-child(3) {
-    background-color: lightgreen;
-} */
 
 /* WEATHER INFO */
 .weatherContainer {
