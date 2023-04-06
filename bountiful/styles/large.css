@@ -103,6 +103,10 @@
         grid-row: 1/2;
     }
 
+    .forecastContainer > div p:first-child {
+        width: 100%;
+    }
+
     footer {
         grid-template-columns: 1fr 1fr 1fr;
     }
