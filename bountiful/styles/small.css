@@ -25,6 +25,7 @@ header > a img {
     margin: 2%;
     box-shadow: 0 0 2px 2px #48321E;
     border-radius: 20%;
+    max-width: 100px;
 }
 
 /* Nav */
@@ -46,8 +47,6 @@ nav {
 
 nav ul {
     list-style-type: none;
-    /* padding: 0;
-    margin: 0; */
 }
 
 nav ul li a {
@@ -116,12 +115,8 @@ nav ul.open {
     position: relative;
     flex-direction: column;
     width: 100vw;
-    height: 25vh;
+    height:30vh;
     margin-top: 0.5rem;
-}
-
-.controls {
-    padding: 10px;
 }
 
 .heroBox button {
@@ -198,6 +193,11 @@ main {
 }
 
 /* DEMOGRAPHIC INFO */
+.section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .place {
     padding: 1rem;
@@ -207,6 +207,8 @@ main {
     box-shadow: 0 0 1px 1px #85D8FF;
     background-color: #C2ECFF;
     margin-bottom: 1rem;
+    max-width: 400px;
+    min-width: 250px;
 }
 
 .place img {
@@ -279,6 +281,8 @@ main {
 
 .forecastContainer > div img {
     margin: 0 auto;
+    width: 40px;
+    height: 40px;
 }
 
 .forecastContainer > div{
@@ -287,10 +291,7 @@ main {
     align-items: center;
 }
 
-.forecastContainer img {
-    width: 40px;
-    height: 40px;
-}
+
 
 /* SUBMITTED DRINKS COUNTER */
 .specialInfoContainer {
@@ -322,21 +323,26 @@ main {
 
 footer {
     background-color: #48321E;
-    margin-top: 1.5rem;
-    padding: 1rem 0;
+    padding-bottom: 1rem;
+    padding-top: 1.5rem;
     font-family: 'Roboto Slab', serif;
 }
 
-.businessInfo {
+.businessInfo, .credits {
     text-align: center;
     color: white;
     font-weight: bolder;
 }
 
-.businessInfo img {
+footer img {
     width: 200px;
     border-radius: 2%;
-    margin-bottom: 0.5rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.businessInfo {
+    margin-top: 1rem;
 }
 
 .businessInfo > p {

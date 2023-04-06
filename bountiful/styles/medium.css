@@ -1,0 +1,124 @@
+@media (min-width: 700px) {
+    p, nav ul li a {
+        font-size: 1.2rem;
+    }
+
+    nav button, .social {
+        top:3rem;
+    }
+
+    .heroBox {
+        height: 50vh;
+    }
+
+    .heroBox button {
+        padding: 20px 5px;
+    }
+
+    .callToAction {
+        padding: 15px;
+        width: 25vw;
+        left: 60%;
+    }
+
+    .section-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    .place{
+        max-width: 50vw;
+        height: 95%;
+    }
+
+    .section-container .place:nth-child(3) {
+        grid-column: 1/3;
+        margin: 0 20%;
+        max-width: 50vw;
+     }
+
+    .forecastContainer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .forecastContainer > div {
+        flex-direction: column;
+        flex-grow: 1;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 30%;
+    }
+
+    .forecastContainer>div >* {
+        margin: 0.5rem;
+    }
+
+    .forecastContainer>div p:last-child {
+        width: fit-content;
+    }
+
+    .forecastContainer>div img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .currentWeather img {
+        width: 80px;
+        height: 80px;
+    }
+
+   footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr auto;
+   } 
+   .businessInfo>* {
+       grid-column: 2/3;
+       grid-row: 1/2;
+   }
+
+   .businessInfo {
+        margin: auto;
+   }
+
+   footer img {
+    grid-column: 1/2;
+    margin: 0 auto;
+
+   }
+
+   hr {
+    display: none;
+   }
+
+   .credits {
+    grid-row: 2/3;
+    grid-column: 1/3;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 1.1rem;
+   }
+
+   .credits > * {
+        flex-grow: 1;
+        padding: 10px;
+   }
+
+   .fresh, .aboutus {
+    max-width: 80vw;
+    margin: auto;
+    padding: 1rem 2rem;
+   }
+
+   .map {
+    width: 70vw;
+    margin: 0 5vw;
+   }
+
+}

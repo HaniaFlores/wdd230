@@ -1,0 +1,128 @@
+@media (min-width: 1000px) {
+    nav {
+        background-color: transparent;
+        margin-top: 2.5rem;
+        flex: 1 30%;
+        position: absolute;
+        top: 20px;
+        right: 40%;
+    }
+    
+    nav button {
+        display: none;
+    }
+    
+    nav ul#primaryNav {
+        display: flex;
+        margin-left: 1rem;
+    }
+    
+    nav ul li a {
+        border: none;
+        color: #48321E;
+        margin-left: 10px;
+    }
+
+    nav ul li.active a {
+        background-color: transparent;
+        color: #48321E;
+    }
+
+    .social {
+        right: 20px;
+    }
+
+    nav ul li.active a {
+    border-bottom: 2px solid green;
+    }
+
+
+    .heroBox {
+        height: 50vh;
+        margin-top: 0;
+    }
+
+    .heroBox button {
+        padding: 30px;
+    }
+
+    .callToAction {
+        font-size: 1.3rem;
+        width: 20vw;
+        padding: 20px;
+        left: 70%;
+    }
+
+    .section-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 0;
+    }
+
+    .place {
+        width: 30vw;
+        max-width: 250px;
+        min-width: 100px;
+        margin: 0 auto;
+    }
+
+    .section-container .place:nth-child(1)
+    {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .section-container .place:nth-child(2) {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .section-container .place:nth-child(3) {
+        grid-column: 3/4;
+        grid-row: 1/2;
+        margin: 0;
+        max-width: 250px;
+        min-width: 100px;
+        margin: 0 auto;
+    }
+
+    .weatherContainer {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .currentWeather {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        border-bottom: 1px solid transparent;
+    }
+
+    .forecastContainer {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    footer {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .businessInfo{
+        grid-column: 2/4;
+    }
+
+    .credits {
+        grid-column: 1/4;
+    }
+
+    .fresh {
+        max-width: 50vw;
+        margin: auto;
+   }
+   .map {
+       max-width: 60vw;
+       margin: 0 10vw;
+   }
+
+
+}
