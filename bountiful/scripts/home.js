@@ -123,3 +123,9 @@ function displayResults(weatherData) {
 }
 
 apiFetch();
+
+/* ---------------- COUNTER -------------- */
+const counter = localStorage.getItem("drinkCounter");
+if (counter) {
+  document.getElementById("count").textContent = counter;
+}

@@ -91,3 +91,14 @@ submit.textContent = "Send Order";
 form.appendChild(notes);
 form.appendChild(text);
 form.appendChild(submit);
+
+let counter = localStorage.getItem("#count");
+if (!counter) {
+  counter = 0;
+}
+
+/* COUNTER */
+
+submit.addEventListener("click", myfunction => {
+  localStorage.setItem('drinkCounter', parseInt(counter) + 1);
+})
