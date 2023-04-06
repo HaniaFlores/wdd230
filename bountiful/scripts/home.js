@@ -58,10 +58,12 @@ slider.addEventListener("mouseleave", function() {
 
 /* ----------------- WEATHER API --------------  */
 // select HTML elements in the document
-const currentTemp = document.querySelector(".temperature");
-const weatherIcon = document.querySelector(".weather-icon");
-const captionDesc = document.querySelector("#weather-condition");
-const humidity = document.querySelector("#percentage");
+const currentWeather = document.querySelector(".currentWeather");
+const currentTemp = document.createElement("p");
+const weatherIcon = document.createElement("img");
+const captionDesc = document.createElement("h2");
+const humidity = document.createElement("p");
+const city = document.createElement("p");
 
 const url = "https://api.openweathermap.org/data/2.5/weather?id=5334223&appid=17ccaf32d4483c10570e9b853463c2b4&units=imperial";
 
@@ -84,6 +86,7 @@ async function apiFetch() {
 
 function displayResults(weatherData) {
   currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}&deg;C</strong>`;
+  currentTemp.classList.add("temperature");
 
   const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
   const desc = weatherData.weather[0].description;
@@ -102,83 +105,21 @@ function displayResults(weatherData) {
   // Display the results in the web
   weatherIcon.setAttribute("src", iconsrc);
   weatherIcon.setAttribute("alt", description);
+  weatherIcon.setAttribute("loading", "lazy");
+  weatherIcon.classList.add("weather-icon");
   captionDesc.innerHTML = `<strong>${description}</strong>`;
-  humidity.textContent = weatherData.main.humidity;
+  captionDesc.classList.add("weather-condition");
+  humidity.textContent = `Humidity ${weatherData.main.humidity}%`;
+  humidity.classList.add("humidity");
+  city.innerHTML = `&#x1F30E; Carlsbad, California`;
+  city.classList.add("location");
+
+  currentWeather.appendChild(weatherIcon);
+  currentWeather.appendChild(captionDesc);
+  currentWeather.appendChild(currentTemp);
+  currentWeather.appendChild(city);
+  currentWeather.appendChild(humidity);
+
 }
 
-/* Forescast */
-/* const forecast1 = document.querySelector("#day1");
-const forecast2 = document.querySelector("#day2");
-const forecast3 = document.querySelector("#day3"); */
-
-/* const url2 = "https://api.openweathermap.org/data/2.5/weather?id=5334223&appid=17ccaf32d4483c10570e9b853463c2b4&units=imperial"; */
-
-/* const today = new Date();
-let currentTime = Math.floor(today.getTime() / 1000);
-
-async function apiFetch2() {
-  for (let i = 1; i <= 3; i++) {
-
-    const startTime = currentTime;
-    const endTime = currentTime + 86400;
-    currentTime = endTime; 
-
-
-    try {
-      const response = await fetch(`${url}&start=${startTime}&end=${endTime}`);
-      if (response.ok) {
-        const data = await response.json();
-        console.log(data);
-        displayResults2(data.list);
-      } else {
-        throw Error(await response.text());
-      }
-    } catch (error) {
-      console.log(error);
-    }
-  }
-}
-
-function displayResults2(weatherData) {
-
-  weatherData.forEach((i)) => {
-    let timestamp = weatherData[i].dt;
-    let date = new Date(timestamp * 1000);
-    let day = getWeekday(date.getDay());
-    let temp = weatherData[i].main.temp;
-    let description = weatherData[i].weather[0].description;
-    let iconCode = weatherData[i].weather[0].icon;
-    const container = document.querySelector("div.forecastContainer");
-
-    let div = document.createElement("div");
-    let weekday = document.createElement("p");
-    let icon = document.createElement("img");
-    let forecast = document.createElement("p");
-
-    div.appendChild(weekday);
-    container.appendChild(div);
-  }
-}
-
-function getWeekday(number) {
-  switch (number) {
-    case 0:
-      return "Sunday";
-    case 1:
-      return "Monday";
-    case 2:
-      return "Tuesday";
-    case 3:
-      return "Wednesday";
-    case 4:
-      return "Thursday";
-    case 5:
-      return "Friday";
-    case 6:
-      return "Saturday";
-    default:
-      return "";
-  }
-} */
 apiFetch();
-/* apiFetch2(); */

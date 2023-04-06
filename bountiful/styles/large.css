@@ -96,6 +96,12 @@
         grid-column: 1/2;
         grid-row: 1/2;
         border-bottom: 1px solid transparent;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .currentWeather img {
+        width: 100px;
+        height: 100px;
     }
 
     .forecastContainer {
